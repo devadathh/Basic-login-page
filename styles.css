@@ -1,0 +1,92 @@
+.
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper
+{
+    width: 260px;
+    background:transparent;
+    color: white;
+    border-radius:15px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    text-align: center;
+    text-weight:bold;
+    font-family:'Times New Roman', Times, serif
+}
+
+.wrapper .inputbox
+{
+    width:100%;
+    height:40px;
+    
+    
+
+}
+.inputbox input{
+    border-radius: 30px;
+    width:220px;
+    margin-left: 8px;;
+    font-size:15px;
+}
+.wrapper .remember
+{
+    font-size: 15px;
+    margin-left:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember .a{
+    text-decoration: none;
+}
+
+.btn
+{
+    margin-top: 10px;
+    margin-left:20px;
+    font-weight: bold;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    width: 220px;
+    height: 30px;
+
+}
+.wrapper .registerlink
+{
+    justify-content: space-between;
+    align-content: center;
+    font-size: 14px;
+    display: flex;
+    margin-left: 35px;
+}
+.wrapper .a:hover{
+    text-decoration:underline;
+    color:black
+}
+.ttt{
+    font-size: 5px;
+}
+.fp
+{
+    text-decoration: none;
+    color:white;
+    text-size:5px;
+}
+.lll
+{
+    color:aqua;
+}
